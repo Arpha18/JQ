@@ -1,3 +1,8 @@
+/* common css  */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* common css end */
 /* nav css start */
 :root{
     --primary-color: #02918c;
@@ -56,3 +61,101 @@
     color:var(--btn-color);
 }
 /* banner section end */
+/*  about secton 1 start */
+#about {
+    padding: 98px 0;
+  }
+  #about .section_info {
+    padding: 0 137px;
+  }
+.section_info{
+    margin-bottom: 80px;
+}
+.section_info h2{
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:var(--primary-color);
+}
+.section_info p{
+    font-size: 16px;
+    line-height: 41px;
+    color: #7e8287;
+}
+.section_info p b{
+    font-size: 23px;
+    font-weight: 800;
+}
+#about .about_item{
+    border-right: 2px solid #5e6767;
+    padding: 35px 62px 55px;
+    margin-bottom: 40px;
+}
+/* #about .about_item:last-child{
+    border-right-color: transparent ;
+} */
+#about .about_item h3{
+    font-size: 16px;
+    font-weight: 800;
+    color: #c9cbcd;
+    margin: 30px;
+}
+#about .about_item p{
+    font-size: 11px;
+   line-height: 21px;
+   color: #7e8287;
+}
+/* about section 1 end */
+/* service css */
+#service{
+    background-size: cover !important;
+    background-position: center !important;
+    padding: 74px;
+}
+#service .w-50 .section_info {
+    text-align: left;
+  }
+/* service css end */
+/* my work section css */
+#mywork {
+    padding: 110px 0;
+  }
+/* my work section css end */
+/* contact css */
+#contact .contact_form {
+    background-color: #0b0b0b;
+    padding: 70px 0;
+  }
+  #contact .contact_form input,
+  #contact .contact_form textarea {
+    display: block;
+    margin: 0 auto;
+    padding: 18px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #898989;
+    font-size: 16px;
+    color: #7e8287;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  #contact .contact_form .sm {
+    width: 637px;
+  }
+  #contact .contact_form .lg {
+    width: 917px;
+  }
+  #contact .contact_form textarea {
+    resize: none;
+  }
+  #contact .contact_form button {
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #cfc91d;
+    padding: 17px 64px;
+    display: block;
+    margin: auto;
+    letter-spacing: 2px;
+    color: #0b1016;
+    border: none; 
+/* contact css end */
